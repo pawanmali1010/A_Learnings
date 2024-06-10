@@ -1,0 +1,73 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+} */
+/* Boilerplate code of css */
+.h1{
+    color: red;
+}
+#test1{
+    color:brown;
+    background-color: lightcyan;
+}
+.box1{
+    width: 50%;
+    height: 150px;
+    background-color: red;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    text-transform: capitalize;
+}
+.lineheight{
+    line-height: 60px;
+    /* font-size: 12px; */
+    font-weight: 600;
+}
+.span{
+    background-color: tomato;
+}
+.border{
+    border: 2px solid red;
+    padding: 21px;
+    margin: 1px;
+    /* border-radius: 30px; */
+    border-radius: 900px;
+}
+.circle1{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    border-radius: 5000px;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.box{
+    border: 2px solid red;
+    background-color: olive;
+    height: 100px;
+    width: 100px;
+    margin: 8px;
+    padding: 11px;
+    text-align: center;
+    align-content: center;
+    /* display: inline-block; */
+    display: flexbox;
+    margin: 0 auto; /*Align item center*/
+}
+.flex{
+    background-color: seagreen;
+    height: 50px;
+    width: 200px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+}
